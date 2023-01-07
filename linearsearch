@@ -6,7 +6,7 @@
     {
         if(arr[i]==key)
         {
-            return 1;
+            return 1;                   /// return the index i if not return -1
         }
     }
  return 0;
@@ -33,3 +33,8 @@
         cout<<"the key is absent ";
     }
  }
+ 
+ /*
+ Time complexity: O(N)
+Auxiliary Space: O(1)
+*/
